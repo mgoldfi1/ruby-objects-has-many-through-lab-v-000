@@ -13,8 +13,8 @@ attr_accessor :name
  end
 
  def new_appointment(date,patient)
-   apt = Appointment.new(date,patient
- end
+   apt = Appointment.new(date,patient)
+  end
 
 
 
