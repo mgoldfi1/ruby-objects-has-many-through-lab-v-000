@@ -21,11 +21,13 @@ def songs
   @@songs.select do |x|
     x.artist == self
   end
+end
 
 def genres
   songs.map do |x|
     song.genre
   end
+end
 
 
 
