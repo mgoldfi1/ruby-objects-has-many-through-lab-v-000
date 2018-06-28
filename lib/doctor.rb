@@ -22,6 +22,12 @@ attr_accessor :name
     end
   end
 
+  def patients
+    appointments.map do |x|
+      x.patient
+    end
+  end
+
 
 
 
