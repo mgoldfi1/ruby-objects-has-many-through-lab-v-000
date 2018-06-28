@@ -5,3 +5,26 @@ class Doctor
     @name = name
     @@all << self
   end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
