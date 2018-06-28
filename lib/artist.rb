@@ -26,3 +26,15 @@ def genres
   songs.map do |x|
     song.genre
   end
+
+
+
+
+
+
+
+
+
+
+
+end
