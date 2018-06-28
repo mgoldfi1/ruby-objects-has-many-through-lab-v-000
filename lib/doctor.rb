@@ -16,7 +16,11 @@ attr_accessor :name
    apt = Appointment.new(date,patient,self)
   end
 
-
+  def appointments
+    Appointment.all.select do |x|
+      x.doctor == self 
+    end
+  end
 
 
 
